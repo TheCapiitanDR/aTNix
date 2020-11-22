@@ -1,0 +1,32 @@
+{
+  "name": "aTNix",
+  "version": "3.1.0",
+  "description": "Hola, <b>whatsappbot</b> es un script de automatización de whatsapp o más como un bot que responde a ciertas palabras clave y algunas otras características",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no se especifico ninguna prueba\" && exit 1"
+  },
+  "author": "TheCapiitan DR",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@open-wa/wa-automate": "^3.0.15",
+    "@open-wa/wa-decrypt": "^2.0.1",
+    "axios": "^0.19.2",
+    "brainly-scraper": "^1.0.2",
+    "chalk": "^4.1.0",
+    "emoji-regex": "^9.0.0",
+    "fs-extra": "^9.0.1",
+    "got": "^11.7.0",
+    "moment-timezone": "^0.5.31",
+    "needle": "^2.5.2",
+    "nhentai-api": "^3.0.2",
+    "nhentai-js": "^4.0.0",
+    "node-fetch": "^2.6.1",
+    "node-gtts": "^2.0.2",
+    "remove.bg": "^1.3.0",
+    "request": "^2.88.2",
+    "tiktok-scraper": "^1.3.4",
+    "video-url-link": "^0.1.4"
+  }
+}
